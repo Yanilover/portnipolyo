@@ -1,0 +1,28 @@
+/*Universal selector is (*) */
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Type selector*/
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='281' height='281' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
